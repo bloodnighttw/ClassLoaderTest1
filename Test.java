@@ -1,7 +1,5 @@
 class Test{
 
-  public void testSuccess(){
-    System.out.println("~!!!");
-  }
+  public void onStarting(){};
 
 }
