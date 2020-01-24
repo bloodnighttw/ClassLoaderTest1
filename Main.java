@@ -1,7 +1,9 @@
 /*
  *
- *  Repl.it:https://repl.it/@bbeenn1227/ClassLoaderTest1
- *  @Author bloodnighttw
+ *  Repl.it:    https://repl.it/@bbeenn1227/ClassLoaderTest1
+ *  Github:     https://github.com/bloodnighttw/ClassLoaderTest1
+ *  Author:     bloodnighttw
+ *  LastUpdate: 2020/01/24 20:55  
  *  
  */
 
@@ -36,7 +38,8 @@ class Main {
       ttt.onStarting();
 
     }catch(ClassNotFoundException|InstantiationException|IllegalAccessException   e){  
-      System.out.println("bangbangbang");
+      System.out.println("======Error======");
+      e.printStackTrace();
     }
   }
 }
